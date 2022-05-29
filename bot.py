@@ -50,7 +50,7 @@ def input_text(update, context):
 #########################################################################
 
 if __name__ == '__main__':
-    updater = Updater(token='5084498276:AAF0FdHkXOSqOJw1VrzwiBiUF1tt3Lg2iUQ', use_context=True)
+    updater = Updater(token='YOUR TOKEN HERE', use_context=True)
 
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', start))
